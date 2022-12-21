@@ -139,7 +139,7 @@ class DataSet:
 
 class Start:
     def __init__(self):
-        self.making = input('Что Вам вывести, вакансии или графики?')
+        self.making = input('Что Вам вывести, графики или вакансии?')
         self.file_name = input('Введите название файла: ')
         self.vacancy_name = input('Введите название профессии: ')
 
