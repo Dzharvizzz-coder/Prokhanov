@@ -270,6 +270,10 @@ class Excel_image_part:
     def save(self, filename):
         self.wb.save(filename=filename)
 
+def print_hi(name):
+    print('Hi', name)
+
+
 
 if __name__ == '__main__':
-    Start()
+    print_hi('George')
